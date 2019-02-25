@@ -2,4 +2,4 @@ language: dart
 dart:
   - stable
 script:
-  - sh travis/commit.sh
+  - bash travis/commit.sh
