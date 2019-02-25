@@ -55,7 +55,7 @@ Flutter widget that automatically resizes text to fit perfectly within its bound
 
 Lets you place headers on scrollable content that will stick to the top of the container whilst the content is scrolled.
 
-<img href="images/sticky_headers1.gif" width="300px">
+<img src="images/sticky_headers1.gif" width="300px">
 
 ---
 
@@ -87,7 +87,7 @@ A scrollbar that can be dragged for quickly navigation through a vertical list. 
 
 A Material Flutter Button that supports progress and error visuals.
 
-<img href="images/progress_button1.gif" width="320px">
+<img src="images/progress_button1.gif" width="320px">
 
 <br>
 
@@ -326,7 +326,7 @@ var result = await FlutterImageCompress.compressWithFile(
 
 The Material Design Icons from the community for Flutter.
 
-<img href="images/material_design_icons_flutter1.png" width="800px">
+<img src="images/material_design_icons_flutter1.png" width="800px">
 
 ---
 
