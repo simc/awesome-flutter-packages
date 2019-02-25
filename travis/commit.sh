@@ -4,7 +4,7 @@ set -e
 
 cd compiler
 pub get
-pub run main
+pub run main.dart
 cd ../
 
 if [ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]
