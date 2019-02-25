@@ -11,8 +11,8 @@ Is your favourite package missing? Let me know or create a pull request...
 - [Animations](#Animations)
 - [Images](#Images)
 - [Swipe & Slide](#Swipe--Slide)
-- [Dialogs & Popups](#Dialogs--Popups)
-- [Labels & Forms](#Labels--Forms)
+- [Dialogs & Pickers](#Dialogs--Pickers)
+- [Input & Forms](#Input--Forms)
 - [Device](#Device)
 - [Networking](#Networking)
 - [Bluetooth & Wifi](#Bluetooth--Wifi)
@@ -55,15 +55,7 @@ Flutter widget that automatically resizes text to fit perfectly within its bound
 
 Lets you place headers on scrollable content that will stick to the top of the container whilst the content is scrolled.
 
-![](images/sticky_headers1.gif)
-
----
-
-## flutter_sticky_header [![](https://img.shields.io/pub/v/flutter_sticky_header.svg)](https://pub.dartlang.org/packages/flutter_sticky_header) [![](https://img.shields.io/github/last-commit/letsar/flutter_sticky_header.svg)](https://github.com/letsar/flutter_sticky_header) [![](https://img.shields.io/github/stars/letsar/flutter_sticky_header.svg?style=social)](https://github.com/letsar/flutter_sticky_header)
-
-Flutter implementation of sticky headers as a sliver. Use it in a CustomScrollView.
-
-![](images/flutter_sticky_header1.gif)
+<img href="images/sticky_headers1.gif" width="300px">
 
 ---
 
@@ -75,11 +67,27 @@ ListView with items that can be scrolled infinitely in both directions.
 
 ---
 
+## flutter_tags [![](https://img.shields.io/pub/v/flutter_tags.svg)](https://pub.dartlang.org/packages/flutter_tags) [![](https://img.shields.io/github/last-commit/Dn-a/flutter_tags.svg)](https://github.com/Dn-a/flutter_tags) [![](https://img.shields.io/github/stars/Dn-a/flutter_tags.svg?style=social)](https://github.com/Dn-a/flutter_tags)
+
+Flutter tags let you create a list of tags or insert them dynamically with the input.
+
+![](images/flutter_tags1.gif)
+
+---
+
 ## Draggable Scrollbar [![](https://img.shields.io/pub/v/draggable_scrollbar.svg)](https://pub.dartlang.org/packages/draggable_scrollbar) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter-draggable-scrollbar.svg)](https://github.com/fluttercommunity/flutter-draggable-scrollbar) [![](https://img.shields.io/github/stars/fluttercommunity/flutter-draggable-scrollbar.svg?style=social)](https://github.com/fluttercommunity/flutter-draggable-scrollbar)
 
 A scrollbar that can be dragged for quickly navigation through a vertical list. Additionaly it can show label next to scrollthumb with information about current item, for example date of picture created.
 
 ![](images/draggable_scrollbar1.gif)
+
+---
+
+## ProgressButton [![](https://img.shields.io/pub/v/progress_button.svg)](https://pub.dartlang.org/packages/progress_button) [![](https://img.shields.io/github/last-commit/halilozercan/progressbutton.svg)](https://github.com/halilozercan/progressbutton) [![](https://img.shields.io/github/stars/halilozercan/progressbutton.svg?style=social)](https://github.com/halilozercan/progressbutton)
+
+A Material Flutter Button that supports progress and error visuals.
+
+<img href="images/progress_button1.gif" width="320px">
 
 <br>
 
@@ -322,31 +330,12 @@ The Material Design Icons from the community for Flutter.
 
 ---
 
-## parallax_image [![](https://img.shields.io/pub/v/parallax_image.svg)](https://pub.dartlang.org/packages/parallax_image) [![](https://img.shields.io/github/last-commit/pulyaevskiy/parallax-image.svg)](https://github.com/pulyaevskiy/parallax-image) [![](https://img.shields.io/github/stars/pulyaevskiy/parallax-image.svg?style=social)](https://github.com/pulyaevskiy/parallax-image)
-
-A Flutter widget that paints an image and moves it at a slower speed than the main scrolling content.
-
-![](images/parallax_image1.gif)
-
----
-
 ## Image Cropping plugin [![](https://img.shields.io/pub/v/image_crop.svg)](https://pub.dartlang.org/packages/image_crop) [![](https://img.shields.io/github/last-commit/VolodymyrLykhonis/image_crop.svg)](https://github.com/VolodymyrLykhonis/image_crop) [![](https://img.shields.io/github/stars/VolodymyrLykhonis/image_crop.svg?style=social)](https://github.com/VolodymyrLykhonis/image_crop)
 A flutter plugin to crop image on iOS and Android. It processes image files off main thread natively. The plugin provides a Crop widget to display image cropping to a user.
 
 <p>
 	<img src="images/image_crop1.jpg" width="250" />
 	<img src="images/image_crop2.jpg" width="250" />
-</p>
-
----
-
-## Pinch Zoom Image [![](https://img.shields.io/pub/v/pinch_zoom_image.svg)](https://pub.dartlang.org/packages/pinch_zoom_image) [![](https://img.shields.io/github/last-commit/YoussefKababe/pinch_zoom_image.svg)](https://github.com/YoussefKababe/pinch_zoom_image) [![](https://img.shields.io/github/stars/YoussefKababe/pinch_zoom_image.svg?style=social)](https://github.com/YoussefKababe/pinch_zoom_image)
-
-A widget that makes picture pinch zoom, then return back to initial size and position when released.
-
-<p>
-	<img src="images/pinch_zoom_image1.jpg" width="250" />
-	<img src="images/pinch_zoom_image2.jpg" width="250" />
 </p>
 
 ---
@@ -374,10 +363,7 @@ Io.File('thumbnail.png')
 
 The best swiper for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
 
-<p>
-	<img src="images/flutter_swiper1.gif" />
-	<img src="images/flutter_swiper2.gif" />
-</p>
+![](images/flutter_swiper1.gif)
 
 ---
 
@@ -424,7 +410,7 @@ A Star rating with touch and swipe rate enabled
 
 <br>
 
-# Dialogs & Popups
+# Dialogs & Pickers
 
 ## modal_progress_hud [![](https://img.shields.io/pub/v/modal_progress_hud.svg)](https://pub.dartlang.org/packages/modal_progress_hud) [![](https://img.shields.io/github/last-commit/mmcc007/modal_progress_hud.svg)](https://github.com/mmcc007/modal_progress_hud) [![](https://img.shields.io/github/stars/mmcc007/modal_progress_hud.svg?style=social)](https://github.com/mmcc007/modal_progress_hud)
 
@@ -442,11 +428,24 @@ A plugin that allows you to pick absolute paths from diferent file types.
 
 ---
 
+## NumberPicker [![](https://img.shields.io/pub/v/numberpicker.svg)](https://pub.dartlang.org/packages/numberpicker) [![](https://img.shields.io/github/last-commit/MarcinusX/NumberPicker.svg)](https://github.com/MarcinusX/NumberPicker) [![](https://img.shields.io/github/stars/MarcinusX/NumberPicker.svg?style=social)](https://github.com/MarcinusX/NumberPicker)
+
+`NumberPicker` is a custom widget designed for choosing an integer or decimal number by scrolling spinners.
+
+It is possible to use `NumberPicker` as a standalone widget as well as in `NumberPickerDialog`.
+
+![](images/numberpicker1.gif)
+
+---
+
 ## country_pickers [![](https://img.shields.io/pub/v/country_pickers.svg)](https://pub.dartlang.org/packages/country_pickers) [![](https://img.shields.io/github/last-commit/figengungor/country_pickers.svg)](https://github.com/figengungor/country_pickers) [![](https://img.shields.io/github/stars/figengungor/country_pickers.svg?style=social)](https://github.com/figengungor/country_pickers)
 
 Countries, codes, flags and several ways of picking them at your service...
 
-![](images/country_pickers1.gif)
+<p>
+	<img src="images/country_pickers1.png" />
+	<img src="images/country_pickers2.png" />
+</p>
 
 ---
 
@@ -466,7 +465,16 @@ A light weight library to easily manage a progress dialog with simple steps when
 
 <br>
 
-# Labels & Forms
+# Input & Forms
+
+## Flutter TypeAhead [![](https://img.shields.io/pub/v/flutter_typeahead.svg)](https://pub.dartlang.org/packages/flutter_typeahead) [![](https://img.shields.io/github/last-commit/AbdulRahmanAlHamali/flutter_typeahead.svg)](https://github.com/AbdulRahmanAlHamali/flutter_typeahead) [![](https://img.shields.io/github/stars/AbdulRahmanAlHamali/flutter_typeahead.svg?style=social)](https://github.com/AbdulRahmanAlHamali/flutter_typeahead)
+
+A highly customizable typeahead (autocomplete) text input field.
+
+![](images/flutter_typeahead1.gif)
+
+
+---
 
 ## Email validator [![](https://img.shields.io/pub/v/email_validator.svg)](https://pub.dartlang.org/packages/email_validator) [![](https://img.shields.io/github/last-commit/fredeil/email-validator.dart.svg)](https://github.com/fredeil/email-validator.dart) [![](https://img.shields.io/github/stars/fredeil/email-validator.dart.svg?style=social)](https://github.com/fredeil/email-validator.dart)
 
@@ -477,6 +485,17 @@ var email = "fredrik@gmail.com";
 
 assert(EmailValidator.validate(email) == true);
 ```
+
+---
+
+## stripe_payment [![](https://img.shields.io/pub/v/stripe_payment.svg)](https://pub.dartlang.org/packages/stripe_payment) [![](https://img.shields.io/github/last-commit/jonasbark/flutter_stripe_payment.svg)](https://github.com/jonasbark/flutter_stripe_payment) [![](https://img.shields.io/github/stars/jonasbark/flutter_stripe_payment.svg?style=social)](https://github.com/jonasbark/flutter_stripe_payment)
+
+A flutter plugin to integrate the stripe plugin for iOS and Android. Currently only adding a credit card as source is implemented.
+
+<p>
+	<img src="images/stripe_payment1.png" />
+	<img src="images/stripe_payment2.gif" width="250" />
+</p>
 
 ---
 
