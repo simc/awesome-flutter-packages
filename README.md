@@ -315,7 +315,7 @@ var result = await FlutterImageCompress.compressWithFile(
 
 The Material Design Icons from the community for Flutter.
 
-![](images/material_design_icons_flutter1.png)
+<img href="images/material_design_icons_flutter1.png" width="800px">
 
 ---
 
@@ -465,6 +465,52 @@ A light weight library to easily manage a progress dialog with simple steps when
 
 # Labels & Forms
 
+## Email validator [![](https://img.shields.io/pub/v/email_validator.svg)](https://pub.dartlang.org/packages/email_validator) [![](https://img.shields.io/github/last-commit/fredeil/email-validator.dart.svg)](https://github.com/fredeil/email-validator.dart) [![](https://img.shields.io/github/stars/fredeil/email-validator.dart.svg?style=social)](https://github.com/fredeil/email-validator.dart)
+
+A simple (but correct) dart class for validating email addresses.
+
+```dart
+var email = "fredrik@gmail.com";
+
+assert(EmailValidator.validate(email) == true);
+```
+
+---
+
+## flutter_form_builder [![](https://img.shields.io/pub/v/flutter_form_builder.svg)](https://pub.dartlang.org/packages/flutter_form_builder) [![](https://img.shields.io/github/last-commit/danvick/flutter_form_builder.svg)](https://github.com/danvick/flutter_form_builder) [![](https://img.shields.io/github/stars/danvick/flutter_form_builder.svg?style=social)](https://github.com/danvick/flutter_form_builder)
+
+Package to build Material Form with components such as TextField (With number, url, email validation), DropDown, TypeAhead, Radios, Checkboxes
+
+```dart
+FormBuilder(
+  context,
+  autovalidate: true,
+  controls: [
+    FormBuilderInput.textField(
+      type: FormBuilderInput.TYPE_TEXT,
+      attribute: "name",
+      label: "Name",
+      require: true,
+      min: 3,
+    ),
+    FormBuilderInput.password(
+      attribute: "password",
+      label: "Password",
+      //require: true,
+    ),
+  ],
+  onChanged: () {
+    print("Form Changed");
+  },
+  onSubmit: (formValue) {
+    if (formValue != null) {
+      print(formValue);
+    } else {
+      print("Form invalid");
+    }
+  },
+),
+```
 
 <br>
 
