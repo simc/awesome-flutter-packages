@@ -1,7 +1,5 @@
 language: dart
 dart:
   - stable
-before_install:
-  - chmod +x /travis/build.sh
 script:
-  - ./travis/commit.sh
+  - sh travis/commit.sh
