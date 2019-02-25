@@ -40,6 +40,14 @@ Easy to use splash screen package.
 
 ---
 
+## auto_size_text [![](https://img.shields.io/pub/v/auto_size_text.svg)](https://pub.dartlang.org/packages/auto_size_text) [![](https://img.shields.io/github/last-commit/leisim/auto_size_text.svg)](https://github.com/leisim/auto_size_text) [![](https://img.shields.io/github/stars/leisim/auto_size_text.svg?style=social)](https://github.com/leisim/auto_size_text)
+
+Flutter widget that automatically resizes text to fit perfectly within its bounds.
+
+![](images/auto_size_text1.gif)
+
+---
+
 ## Flutter Sticky Headers [![](https://img.shields.io/pub/v/sticky_headers.svg)](https://pub.dartlang.org/packages/sticky_headers) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter_sticky_headers.svg)](https://github.com/fluttercommunity/flutter_sticky_headers) [![](https://img.shields.io/github/stars/fluttercommunity/flutter_sticky_headers.svg?style=social)](https://github.com/fluttercommunity/flutter_sticky_headers)
 
 Lets you place headers on scrollable content that will stick to the top of the container whilst the content is scrolled.
@@ -817,6 +825,21 @@ var t = const Tuple2<String, int>('a', 10);
 
 print(t.item1); // prints 'a'
 print(t.item2); // prints '10'
+```
+
+---
+
+## superpower [![](https://img.shields.io/pub/v/superpower.svg)](https://pub.dartlang.org/packages/superpower) [![](https://img.shields.io/github/last-commit/leisim/superpower.svg)](https://github.com/leisim/superpower) [![](https://img.shields.io/github/stars/leisim/superpower.svg?style=social)](https://github.com/leisim/superpower)
+
+Lists, Iterables and Maps on steroids! 🦄 Extends Lists with negative indices, sort, group, distinct, slice, flatten etc. Inspired by Kotlin.
+
+Just wrap your existing List with $(myList) or create a new empty list with $() and you are good to go.
+
+```dart
+var superList = $([0, 10, 100, 1000]);
+var sum = superList.sum(); // 1110
+var last = superList[-1]; // 1000
+var lastTwo = superList.slice(-2); // [100, 1000]
 ```
 
 <br>
