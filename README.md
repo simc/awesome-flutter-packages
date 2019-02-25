@@ -311,6 +311,14 @@ var result = await FlutterImageCompress.compressWithFile(
 
 ---
 
+## Material Design Icons [![](https://img.shields.io/pub/v/material_design_icons_flutter.svg)](https://pub.dartlang.org/packages/material_design_icons_flutter) [![](https://img.shields.io/github/last-commit/ziofat/material_design_icons_flutter.svg)](https://github.com/ziofat/material_design_icons_flutter) [![](https://img.shields.io/github/stars/ziofat/material_design_icons_flutter.svg?style=social)](https://github.com/ziofat/material_design_icons_flutter)
+
+The Material Design Icons from the community for Flutter.
+
+![](images/material_design_icons_flutter1.png)
+
+---
+
 ## parallax_image [![](https://img.shields.io/pub/v/parallax_image.svg)](https://pub.dartlang.org/packages/parallax_image) [![](https://img.shields.io/github/last-commit/pulyaevskiy/parallax-image.svg)](https://github.com/pulyaevskiy/parallax-image) [![](https://img.shields.io/github/stars/pulyaevskiy/parallax-image.svg?style=social)](https://github.com/pulyaevskiy/parallax-image)
 
 A Flutter widget that paints an image and moves it at a slower speed than the main scrolling content.
