@@ -29,7 +29,7 @@ Never submit a image larger than 1MB. PNGs and JPGs should be much smaller.
 
 Add the following HTML to your entry to add the image: 
 ```html
-<img href="images/your_package_name1.png" width="250px">
+<img src="images/your_package_name1.png" width="250px">
 ```
 
 ## DO NOT EDIT THE README.md

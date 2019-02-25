@@ -12,7 +12,7 @@ then
   git config --global user.email "travis@travis-ci.com"
   git config --global user.name "Travis CI"
   git checkout master
-  git add README.md
+  git add --force README.md
   git commit --message "README.md build [ci skip]"
   git push "https://${GH_TOKEN}@github.com/leisim/awesome-flutter-packages.git"
 fi
