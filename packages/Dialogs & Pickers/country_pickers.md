@@ -2,4 +2,7 @@
 
 Countries, codes, flags and several ways of picking them at your service...
 
-![](images/country_pickers1.gif)
+<p>
+	<img src="images/country_pickers1.png" />
+	<img src="images/country_pickers2.png" />
+</p>
