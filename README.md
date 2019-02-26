@@ -116,14 +116,6 @@ A beautiful and custom refresh indicator with some cool animations and transitio
 
 ---
 
-## Rubber [![](https://img.shields.io/pub/v/rubber.svg)](https://pub.dartlang.org/packages/rubber) [![](https://img.shields.io/github/last-commit/mcrovero/rubber.svg)](https://github.com/mcrovero/rubber) [![](https://img.shields.io/github/stars/mcrovero/rubber.svg?style=social)](https://github.com/mcrovero/rubber)
-
-Rubber is an elastic bottom sheet widget with the customizable material spring animation.
-
-![](images/rubber1.gif)
-
----
-
 ## Infinite ListView [![](https://img.shields.io/pub/v/infinite_listview.svg)](https://pub.dartlang.org/packages/infinite_listview) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter_infinite_listview.svg)](https://github.com/fluttercommunity/flutter_infinite_listview) [![](https://img.shields.io/github/stars/fluttercommunity/flutter_infinite_listview.svg?style=social)](https://github.com/fluttercommunity/flutter_infinite_listview)
 
 ListView with items that can be scrolled infinitely in both directions.
@@ -222,8 +214,8 @@ SpriteWidget is a toolkit for building complex, high performance animations and 
 Composite together any animation with this robust and simple to use package.
 
 <p>
-	<img src="images/flutter_sequence_animation1.gif" width="250" />
-	<img src="images/flutter_sequence_animation2.gif" width="250" />
+	<img src="images/flutter_sequence_animation1.gif" />
+	<img src="images/flutter_sequence_animation2.gif" />
 </p>
 
 ---
@@ -356,7 +348,7 @@ A simple zoomable image widget for Flutter.
 
 Resolves a image provider and shows the result with useful gestures support, such as pinch to zoom and pan.
 
-![](images/photo_view1.gif)
+<img src="images/photo_view1.gif" height="240px">
 
 ---
 
@@ -468,7 +460,7 @@ Io.File('thumbnail.png')
 
 The best swiper for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
 
-![](images/flutter_swiper1.gif)
+<img src="images/flutter_swiper1.gif" height="180px">
 
 ---
 
@@ -512,6 +504,14 @@ A Star rating with touch and swipe rate enabled
 - Change star body and boundary colors independently
 
 ![](images/smooth_star_rating1.gif)
+
+---
+
+## Rubber [![](https://img.shields.io/pub/v/rubber.svg)](https://pub.dartlang.org/packages/rubber) [![](https://img.shields.io/github/last-commit/mcrovero/rubber.svg)](https://github.com/mcrovero/rubber) [![](https://img.shields.io/github/stars/mcrovero/rubber.svg?style=social)](https://github.com/mcrovero/rubber)
+
+Rubber is an elastic bottom sheet widget with the customizable material spring animation.
+
+![](images/rubber1.gif)
 
 <br>
 
