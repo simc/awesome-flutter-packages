@@ -1,4 +1,4 @@
-## drawing_animation
+drawing_animation
 
 An dart-only library for gradually painting SVG path objects on canvas (drawing line animation).
 

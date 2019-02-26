@@ -1,4 +1,4 @@
-## after_layout
+after_layout
 
 Brings functionality to execute code after the first layout of a widget has been performed, i.e. after the first frame has been displayed.
 

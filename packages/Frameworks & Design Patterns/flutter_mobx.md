@@ -1,4 +1,4 @@
-## Flutter MobX
+Flutter MobX
 
 MobX is a library for reactively managing the state of your applications. Use the power of observables, actions, and reactions to supercharge your Dart and Flutter apps.
 

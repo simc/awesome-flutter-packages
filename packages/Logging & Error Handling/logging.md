@@ -1,4 +1,4 @@
-## logging (Flutter Team)
+logging (Flutter Team)
 
 Provides APIs for debugging and error logging. This library introduces abstractions similar to those used in other languages, such as the Closure JS Logger and java.util.logging.Logger.
 

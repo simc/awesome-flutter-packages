@@ -1,4 +1,4 @@
-## Fluid Slider
+Fluid Slider
 
 A fluid design slider that works just like the Slider material widget.
 

@@ -1,4 +1,4 @@
-## tuple
+tuple
 
 Tuple data structure.
 

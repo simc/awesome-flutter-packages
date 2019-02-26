@@ -1,4 +1,4 @@
-## ✨Flutter Spinkit
+✨Flutter Spinkit
 
 A collection of loading indicators animated with flutter.
 

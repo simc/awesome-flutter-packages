@@ -1,4 +1,4 @@
-## Image Cropper
+Image Cropper
 
 A Flutter plugin for Android and iOS supports cropping images.
 

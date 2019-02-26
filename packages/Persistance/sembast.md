@@ -1,4 +1,4 @@
-## sembast
+sembast
 
 NoSQL persistent embedded file system document-based database for Dart VM and Flutter with encryption support.
 

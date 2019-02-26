@@ -1,4 +1,4 @@
-## flip_card
+flip_card
 
 A component that provides flip card animation. It could be used for hide and show details of a product.
 

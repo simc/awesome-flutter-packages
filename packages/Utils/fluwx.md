@@ -1,4 +1,4 @@
-## fluwx WeChatSDK
+fluwx WeChatSDK
 
 A implement of WeChatSDK on Flutter. Enjoy sharing or payments in Flutter.
 

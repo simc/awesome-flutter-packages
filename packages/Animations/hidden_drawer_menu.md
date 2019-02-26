@@ -1,4 +1,4 @@
-## Hidden Drawer Menu
+Hidden Drawer Menu
 
 Hidden Drawer Menu is a library for adding a beautiful drawer mode menu feature with perspective animation.
 

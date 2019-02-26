@@ -1,4 +1,4 @@
-## fluttie: Lottie for flutter
+fluttie: Lottie for flutter
 
 Fluttie allows you to easily display stunning Lottie animations in flutter.
 

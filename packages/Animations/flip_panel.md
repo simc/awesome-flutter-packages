@@ -1,4 +1,4 @@
-## flip_panel
+flip_panel
 
 A package for flip panel with built-in animation.
 

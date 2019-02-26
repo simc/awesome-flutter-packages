@@ -1,4 +1,4 @@
-## battery
+battery
 
 Flutter plugin for accessing information about the battery state (full, charging, discharging) on Android and iOS.
 

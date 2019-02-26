@@ -1,4 +1,4 @@
-## redux_persist
+redux_persist
 Persist Redux state across app restarts in Flutter, Web, or custom storage engines.
 
 Features:

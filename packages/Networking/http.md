@@ -1,4 +1,4 @@
-## http (Flutter Team)
+http (Flutter Team)
 
 A composable, cross-platform, Future-based API for making HTTP requests.
 

@@ -1,4 +1,4 @@
-## Animated Text Kit
+Animated Text Kit
 
 A flutter package project which contains a collection of cool and beautiful text animations.
 

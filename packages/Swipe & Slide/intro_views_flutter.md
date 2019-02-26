@@ -1,4 +1,4 @@
-## intro_views_flutter
+intro_views_flutter
 
 A Flutter package for simple material design app intro screens with some cool animations.
 

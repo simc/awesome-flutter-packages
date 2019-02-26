@@ -1,4 +1,4 @@
-## Screen
+Screen
 
 A Flutter plugin to manage the device's screen on Android and iOS.
 

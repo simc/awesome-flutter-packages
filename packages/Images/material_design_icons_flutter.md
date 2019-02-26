@@ -1,4 +1,4 @@
-## Material Design Icons
+Material Design Icons
 
 The Material Design Icons from the community for Flutter.
 

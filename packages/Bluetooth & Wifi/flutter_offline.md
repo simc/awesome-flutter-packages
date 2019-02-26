@@ -1,4 +1,4 @@
-## flutter_offline
+flutter_offline
 
 A tidy utility to handle offline/online connectivity like a Boss. It provides support for both iOS and Android platforms.
 

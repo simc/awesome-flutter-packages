@@ -1,4 +1,4 @@
-## Infinite ListView
+Infinite ListView
 
 ListView with items that can be scrolled infinitely in both directions.
 

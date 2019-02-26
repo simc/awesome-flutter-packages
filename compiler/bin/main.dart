@@ -42,6 +42,7 @@ void main() async {
 class Package {
   List<String> markdown;
   String name;
+  String version;
   String repoUser;
   String repoName;
   String homepage;
@@ -77,6 +78,12 @@ Future<Package> loadPackage(FileSystemEntity packageFile) async {
   var fileName = $(packageFile.path.split('/')).last;
   package.name = fileName.substring(0, fileName.length - 3);
 
+  var pubResponse = await http
+      .get(Uri.parse('https://pub.dartlang.org/api/packages/${package.name}/'));
+  var pubJson = jsonDecode(pubResponse.body);
+  var pubspec = pubJson['latest']['pubspec'];
+  package.version = pubspec['version'];
+
   if (properties.containsKey('github')) {
     var github = properties['github'].split(':');
     package.repoUser = github[0];
@@ -84,10 +91,6 @@ Future<Package> loadPackage(FileSystemEntity packageFile) async {
     package.homepage =
         'https://github.com/${package.repoUser}/${package.repoName}';
   } else {
-    var pubResponse = await http.get(
-        Uri.parse('https://pub.dartlang.org/api/packages/${package.name}/'));
-    var pubJson = jsonDecode(pubResponse.body);
-    var pubspec = pubJson['latest']['pubspec'];
     package.homepage = pubspec['repository'] ?? pubspec['homepage'];
     var homepageUri = Uri.parse(package.homepage);
     assert(
@@ -130,24 +133,15 @@ Map<String, String> readProperties(List<String> markdown) {
   return properties;
 }
 
-String pubBadge(Package package) {
-  return "[![](https://img.shields.io/pub/v/${package.name}.svg)](https://pub.dartlang.org/packages/${package.name})";
-}
-
-String lastCommitBadge(Package package) {
-  return "[![](https://img.shields.io/github/last-commit/${package.repoUser}/${package.repoName}.svg)](${package.homepage})";
-}
-
-String starsBadge(Package package) {
-  return "[![](https://img.shields.io/github/stars/${package.repoUser}/${package.repoName}.svg?style=social)](${package.homepage})";
-}
-
 String buildPackageMarkdown(Package package) {
-  assert(package.markdown[0].trimLeft().startsWith('## '),
-      "Package does not have a correct title.");
   var firstLine = package.markdown[0].trimRight();
+  var lastCommit =
+      '<a href="${package.homepage}"><img src="https://img.shields.io/github/last-commit/${package.repoUser}/${package.repoName}.svg"></a>';
+  var stars =
+      '<a href="${package.homepage}"><img src="https://img.shields.io/github/stars/${package.repoUser}/${package.repoName}.svg?style=social"></a>';
   package.markdown[0] =
-      "$firstLine ${pubBadge(package)} ${lastCommitBadge(package)} ${starsBadge(package)}";
+      '<h2>$firstLine <a href="https://pub.dartlang.org/packages/${package.name}">v${package.version}</a> $lastCommit $stars</h2>';
+
   return package.markdown.join("\n");
 }
 

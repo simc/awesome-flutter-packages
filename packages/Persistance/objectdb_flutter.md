@@ -1,4 +1,4 @@
-## objectdb_flutter
+objectdb_flutter
 Reactive ObjectDB helper.
 
 ```dart

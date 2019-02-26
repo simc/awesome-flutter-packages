@@ -1,4 +1,4 @@
-## NumberPicker
+NumberPicker
 
 `NumberPicker` is a custom widget designed for choosing an integer or decimal number by scrolling spinners.
 

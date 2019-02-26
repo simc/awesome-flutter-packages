@@ -1,4 +1,4 @@
-## scoped_model
+scoped_model
 
 A Widget that passes a Reactive Model to all of it's children.
 

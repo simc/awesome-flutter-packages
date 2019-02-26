@@ -1,4 +1,4 @@
-## flutter_form_builder
+flutter_form_builder
 
 Package to build Material Form with components such as TextField (With number, url, email validation), DropDown, TypeAhead, Radios, Checkboxes
 

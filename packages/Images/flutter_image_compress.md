@@ -1,4 +1,4 @@
-## flutter_image_compress
+flutter_image_compress
 
 Compress images with native code (objc kotlin), it's faster. This package supports Android and iOS.
 

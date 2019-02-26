@@ -1,4 +1,4 @@
-## Flutter Downloader
+Flutter Downloader
 
 A plugin for creating and managing download tasks. Supports iOS and Android.
 

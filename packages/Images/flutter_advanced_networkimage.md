@@ -1,4 +1,4 @@
-## Flutter Advanced Network Image
+Flutter Advanced Network Image
 
 An advanced image provider provides caching and retrying for flutter app. Now with zoomable widget and transition to image widget
 

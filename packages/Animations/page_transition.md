@@ -1,4 +1,4 @@
-## Flutter Page Transition Package
+Flutter Page Transition Package
 
 This package gives you beautiful page transitions.
 

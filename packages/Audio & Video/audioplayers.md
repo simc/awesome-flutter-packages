@@ -1,4 +1,4 @@
-## audioplayers
+audioplayers
 
 A Flutter plugin to play multiple audio files simultaneously (Android/iOS).
 

@@ -1,4 +1,4 @@
-## synchronized
+synchronized
 
 Lock mechanism to prevent concurrent access to asynchronous code.
 

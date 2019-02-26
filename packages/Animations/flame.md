@@ -1,4 +1,4 @@
-## flame
+flame
 
 A minimalist Flutter game engine, provides a nice set of somewhat independent modules you can choose from.
 

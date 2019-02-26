@@ -1,4 +1,4 @@
-## Flutter Hooks
+Flutter Hooks
 
 A flutter implementation of React hooks. It adds a new kind of widget with enhanced code reuse.
 

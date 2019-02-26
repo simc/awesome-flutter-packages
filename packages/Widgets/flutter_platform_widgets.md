@@ -1,4 +1,4 @@
-## Flutter Platform Widgets
+Flutter Platform Widgets
 
 Simplifying the use of both Material and Cupertino widgets with a single widget.
 

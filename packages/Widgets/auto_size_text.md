@@ -1,4 +1,4 @@
-## auto_size_text
+auto_size_text
 
 Flutter widget that automatically resizes text to fit perfectly within its bounds.
 

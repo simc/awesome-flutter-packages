@@ -1,4 +1,4 @@
-## Flutter Photo View
+Flutter Photo View
 
 A simple zoomable image widget for Flutter.
 

@@ -1,4 +1,4 @@
-## catcher
+catcher
 
 Plugin for error catching. Allows handling errors when they're not catched by developer. Plugin provides multiple handlers for errors.
 

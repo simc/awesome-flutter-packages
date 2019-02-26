@@ -1,4 +1,4 @@
-## chewie
+chewie
 
 The video player for Flutter with a heart of gold.
 

@@ -1,4 +1,4 @@
-## sqflite
+sqflite
 SQLite plugin for Flutter. Supports both iOS and Android.
 
 - Support transactions and batches

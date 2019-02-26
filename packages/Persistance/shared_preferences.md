@@ -1,4 +1,4 @@
-## Shared preferences (Flutter Team)
+Shared preferences (Flutter Team)
 
 Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.
 

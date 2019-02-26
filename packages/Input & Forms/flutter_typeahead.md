@@ -1,4 +1,4 @@
-## Flutter TypeAhead
+Flutter TypeAhead
 
 A highly customizable typeahead (autocomplete) text input field.
 

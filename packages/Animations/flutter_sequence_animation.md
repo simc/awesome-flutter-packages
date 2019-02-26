@@ -1,4 +1,4 @@
-## flutter_sequence_animation
+flutter_sequence_animation
 
 Composite together any animation with this robust and simple to use package.
 

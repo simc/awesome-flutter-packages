@@ -1,4 +1,4 @@
-## contacts_service
+contacts_service
 
 A Flutter plugin to retrieve and manage contacts on Android and iOS devices.
 

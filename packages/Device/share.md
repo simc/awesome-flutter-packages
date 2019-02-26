@@ -1,4 +1,4 @@
-## share (Flutter Team)
+share (Flutter Team)
 
 Flutter plugin for sharing content via the platform share UI, using the ACTION_SEND intent on Android and UIActivityViewController on iOS.
 

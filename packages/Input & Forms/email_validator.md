@@ -1,4 +1,4 @@
-## Email validator
+Email validator
 
 A simple (but correct) dart class for validating email addresses.
 

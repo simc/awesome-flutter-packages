@@ -1,4 +1,4 @@
-## audioplayer
+audioplayer
 
 A flutter plugin to play audio files
 

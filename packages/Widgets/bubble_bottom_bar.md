@@ -1,4 +1,4 @@
-## BubbleBottomBar
+BubbleBottomBar
 
 BubbleBottomBar is a Flutter widget designed by cubertodesign and developed by westdabestdb.
 

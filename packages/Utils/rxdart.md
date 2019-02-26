@@ -1,7 +1,7 @@
-## RxDart
+RxDart
 RxDart is a reactive functional programming library for Google Dart, based on ReactiveX.
 
-### Reading the Konami Code
+#Reading the Konami Code
 
 ```dart
 const konamiKeyCodes = const <int>[

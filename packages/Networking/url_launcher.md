@@ -1,4 +1,4 @@
-## url_launcher (Flutter Team)
+url_launcher (Flutter Team)
 
 Flutter plugin for launching a URL on Android and iOS. Supports web, phone, SMS, and email schemes.
 

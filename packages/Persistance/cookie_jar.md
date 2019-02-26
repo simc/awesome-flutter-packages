@@ -1,4 +1,4 @@
-## CookieJar
+CookieJar
 A cookie manager for http requests in Dart, by which you can deal with the complex cookie policy and persist cookies easily.
 
 ```dart

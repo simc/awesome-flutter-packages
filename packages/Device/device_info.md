@@ -1,4 +1,4 @@
-## device_info (Flutter Team)
+device_info (Flutter Team)
 
 Flutter plugin providing detailed information about the device (make, model, etc.), and Android or iOS version the app is running on.
 

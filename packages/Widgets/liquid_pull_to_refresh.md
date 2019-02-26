@@ -1,4 +1,4 @@
-## Liquid Pull To Refresh
+Liquid Pull To Refresh
 
 A beautiful and custom refresh indicator with some cool animations and transitions for flutter.
 

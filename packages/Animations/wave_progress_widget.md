@@ -1,4 +1,4 @@
-## WaveProgress
+WaveProgress
 
 A custom wave progress widget.
 

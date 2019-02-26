@@ -1,4 +1,4 @@
-## hydrated
+hydrated
 
 Hydrated provides a BehaviorSubject that automatically persists to Flutter's local storage and hydrates on creation!
 

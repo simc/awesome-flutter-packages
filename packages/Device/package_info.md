@@ -1,4 +1,4 @@
-## package_info (Flutter Team)
+package_info (Flutter Team)
 
 Flutter plugin for querying information about the application package, such as CFBundleVersion on iOS or versionCode on Android.
 

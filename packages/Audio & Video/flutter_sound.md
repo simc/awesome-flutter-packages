@@ -1,4 +1,4 @@
-## Flutter Sound
+Flutter Sound
 
 This plugin provides simple recorder and player functionalities for both Android and iOS.
 

@@ -1,4 +1,4 @@
-## Splash Screen
+Splash Screen
 
 Easy to use splash screen package.
 

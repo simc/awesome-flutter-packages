@@ -1,4 +1,4 @@
-## stripe_payment
+stripe_payment
 
 A flutter plugin to integrate the stripe plugin for iOS and Android. Currently only adding a credit card as source is implemented.
 

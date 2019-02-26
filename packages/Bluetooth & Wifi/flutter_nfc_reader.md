@@ -1,4 +1,4 @@
-## Flutter NFC Reader
+Flutter NFC Reader
 
 A new flutter plugin to help developers looking to use internal hardware inside iOS or Android devices for reading NFC tags.
 

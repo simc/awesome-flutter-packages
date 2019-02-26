@@ -1,4 +1,4 @@
-## superpower
+superpower
 
 Lists, Iterables and Maps on steroids! 🦄 Extends Lists with negative indices, sort, group, distinct, slice, flatten etc. Inspired by Kotlin.
 

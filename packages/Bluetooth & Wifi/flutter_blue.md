@@ -1,4 +1,4 @@
-## FlutterBlue
+FlutterBlue
 
 Popular Bluetooth plugin for Flutter
 

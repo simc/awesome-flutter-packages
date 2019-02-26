@@ -1,4 +1,4 @@
-## json_serialize (Flutter Team)
+json_serialize (Flutter Team)
 
 Generates utilities to aid in serializing to/from JSON.
 

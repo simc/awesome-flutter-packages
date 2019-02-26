@@ -1,4 +1,4 @@
-## path_provider (Flutter Team)
+path_provider (Flutter Team)
 
 A Flutter plugin for finding commonly used locations on the filesystem. Supports iOS and Android.
 

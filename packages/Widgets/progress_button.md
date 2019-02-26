@@ -1,4 +1,4 @@
-## ProgressButton
+ProgressButton
 
 A Material Flutter Button that supports progress and error visuals.
 

@@ -1,4 +1,4 @@
-## stepper_touch
+stepper_touch
 
 A Flutter stepper widget with nice aniamtion.
 
