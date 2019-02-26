@@ -34,6 +34,8 @@ void main() async {
     markdown += '\n\n<br>\n\n' + await compileCategory(category);
   }
 
+  markdown += "\n\n" + File('Footer.md').readAsStringSync();
+
   checkImages();
 
   File('../README.md').writeAsStringSync(markdown);

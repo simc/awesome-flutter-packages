@@ -8,7 +8,7 @@ This List collects the **most valuable** packages. Please only suggest your favo
 
 1. Choose a category (look into the `packages` folder)
 2. Create a file with the name: `your_pub_package_name.md`
-3. The first line is the title of your package `## Your Package`
+3. The first line is the title of your package `Your Package`
 4. Add a short description and an image(s) **OR** a short code sample
 
 *Please keep the height of your entry as small as possible.*
@@ -27,9 +27,19 @@ Never submit a image larger than 1MB. PNGs and JPGs should be much smaller.
 
 ### Link images in your entry
 
-Add the following HTML to your entry to add the image: 
+Add the following HTML to your entry to add the image (adjust dimensions): 
 ```html
 <img src="images/your_package_name1.png" width="250px">
+```
+
+## Sample
+
+```markdown
+auto_size_text
+
+Flutter widget that automatically resizes text to fit perfectly within its bounds.
+
+<img src="images/auto_size_text1.gif" width="500px">
 ```
 
 ## DO NOT EDIT THE README.md
