@@ -2,9 +2,11 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/leisim/awesome-flutter-packages) [![Travis](https://travis-ci.com/leisim/awesome-flutter-packages.svg?branch=master)](https://travis-ci.com/leisim/awesome-flutter-packages)
 
 
-A curated list of awesome Flutter packages. These are some of the most valuable gems of the Flutter community.
+A curated list 📄 of awesome 🌟 Flutter packages. These are some of the most valuable gems 💎 of the Flutter community.
 
-Is your favourite package missing? Let me know or create a pull request...
+Is your favourite 😍 package missing? Let me know or create a pull request...
+
+*Please read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request* 👍
 
 ## Index
 - [Widgets](#Widgets)
@@ -176,7 +178,7 @@ A fluid design slider that works just like the Slider material widget.
 
 BubbleBottomBar is a Flutter widget designed by cubertodesign and developed by westdabestdb.
 
-![images/bubble_bottom_bar1.gif]
+![](images/bubble_bottom_bar1.gif)
 
 ---
 
@@ -1527,3 +1529,9 @@ main() {
   Catcher(MyApp(), debugConfig: debugOptions, releaseConfig: releaseOptions);
 }
 ```
+
+# License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, Simon Leier has waived all copyright and related or neighboring rights to this work.
