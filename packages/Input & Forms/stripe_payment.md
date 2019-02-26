@@ -4,5 +4,5 @@ A flutter plugin to integrate the stripe plugin for iOS and Android. Currently o
 
 <p>
 	<img src="images/stripe_payment1.png" />
-	<img src="images/stripe_payment2.gif" width="250" />
+	<img src="images/stripe_payment2.png" />
 </p>
