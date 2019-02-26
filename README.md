@@ -77,7 +77,7 @@ Flutter tags let you create a list of tags or insert them dynamically with the i
 
 ## Draggable Scrollbar [![](https://img.shields.io/pub/v/draggable_scrollbar.svg)](https://pub.dartlang.org/packages/draggable_scrollbar) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter-draggable-scrollbar.svg)](https://github.com/fluttercommunity/flutter-draggable-scrollbar) [![](https://img.shields.io/github/stars/fluttercommunity/flutter-draggable-scrollbar.svg?style=social)](https://github.com/fluttercommunity/flutter-draggable-scrollbar)
 
-A scrollbar that can be dragged for quickly navigation through a vertical list. Additionaly it can show label next to scrollthumb with information about current item, for example date of picture created.
+A scrollbar that can be dragged for quickly navigation through a vertical list. Additionally it can show label next to scrollthumb with information about current item, for example date of picture created.
 
 ![](images/draggable_scrollbar1.gif)
 
@@ -422,7 +422,7 @@ A modal progress indicator widget (HUD = heads-up display). Wrap around another 
 
 ## file_picker [![](https://img.shields.io/pub/v/file_picker.svg)](https://pub.dartlang.org/packages/file_picker) [![](https://img.shields.io/github/last-commit/miguelpruivo/plugins_flutter_file_picker.svg)](https://github.com/miguelpruivo/plugins_flutter_file_picker) [![](https://img.shields.io/github/stars/miguelpruivo/plugins_flutter_file_picker.svg?style=social)](https://github.com/miguelpruivo/plugins_flutter_file_picker)
 
-A plugin that allows you to pick absolute paths from diferent file types.
+A plugin that allows you to pick absolute paths from different file types.
 
 ![](images/file_picker1.gif)
 
@@ -1122,7 +1122,7 @@ incrementCounter() async {
 SQLite plugin for Flutter. Supports both iOS and Android.
 
 - Support transactions and batches
-- Automatic version managment during open
+- Automatic version management during open
 - Helpers for insert/query/update/delete queries
 - DB operation executed in a background thread on iOS and Android
 
@@ -1197,7 +1197,7 @@ db.insert({
 
 ## mkvv_flutter [![](https://img.shields.io/pub/v/mmkv_flutter.svg)](https://pub.dartlang.org/packages/mmkv_flutter) [![](https://img.shields.io/github/last-commit/yuyongmao/mmkv_flutter.svg)](https://github.com/yuyongmao/mmkv_flutter) [![](https://img.shields.io/github/stars/yuyongmao/mmkv_flutter.svg?style=social)](https://github.com/yuyongmao/mmkv_flutter)
 
-Plugin that allow Flutter to read value from persistent storage or save value to persistent storage base on MMKV framewor.
+Plugin that allow Flutter to read value from persistent storage or save value to persistent storage base on MMKV framework.
 
 ```dart
 MmkvFlutter mmkv = await MmkvFlutter.getInstance();
