@@ -63,7 +63,7 @@ Lets you place headers on scrollable content that will stick to the top of the c
 
 Flutter plugin to implement a beautiful and dynamic Material Design Speed Dial, with labels, animated icons and hide on scrolling.
 
-![](images/flutter_sppeed_dial1.gif)
+![](images/flutter_speed_dial1.gif)
 
 ---
 
@@ -104,7 +104,7 @@ etc.
 
 A Flutter staggered grid view which supports multiple columns with rows of varying sizes.
 
-![](images/flutter_staggered_grid_view.png)
+![](images/flutter_staggered_grid_view1.png)
 
 ---
 
@@ -134,7 +134,7 @@ Flutter tags let you create a list of tags or insert them dynamically with the i
 
 ## Draggable Scrollbar [![](https://img.shields.io/pub/v/draggable_scrollbar.svg)](https://pub.dartlang.org/packages/draggable_scrollbar) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter-draggable-scrollbar.svg)](https://github.com/fluttercommunity/flutter-draggable-scrollbar) [![](https://img.shields.io/github/stars/fluttercommunity/flutter-draggable-scrollbar.svg?style=social)](https://github.com/fluttercommunity/flutter-draggable-scrollbar)
 
-A scrollbar that can be dragged for quickly navigation through a vertical list. Additionaly it can show label next to scrollthumb with information about current item, for example date of picture created.
+A scrollbar that can be dragged for quickly navigating through a vertical list. Additionally it can show a label next to the scrollthumb with information about the current item.
 
 ![](images/draggable_scrollbar1.gif)
 
@@ -296,20 +296,6 @@ A Flutter plugin for iOS and Android for picking images from the image library, 
 
 ---
 
-## CachedNetworkImage [![](https://img.shields.io/pub/v/cached_network_image.svg)](https://pub.dartlang.org/packages/cached_network_image) [![](https://img.shields.io/github/last-commit/renefloor/flutter_cached_network_image.svg)](https://github.com/renefloor/flutter_cached_network_image) [![](https://img.shields.io/github/stars/renefloor/flutter_cached_network_image.svg?style=social)](https://github.com/renefloor/flutter_cached_network_image)
-
-A flutter library to show images from the internet and keep them in the cache directory.
-
-```dart
-CachedNetworkImage(
-  imageUrl: "http://via.placeholder.com/350x150",
-  placeholder: (context, url) => CircularProgressIndicator(),
-  errorWidget: (context, url, error) => Icon(Icons.error),
-)
-```
-
----
-
 ## flutter_svg [![](https://img.shields.io/pub/v/flutter_svg.svg)](https://pub.dartlang.org/packages/flutter_svg) [![](https://img.shields.io/github/last-commit/dnfield/flutter_svg.svg)](https://github.com/dnfield/flutter_svg) [![](https://img.shields.io/github/stars/dnfield/flutter_svg.svg?style=social)](https://github.com/dnfield/flutter_svg)
 
 An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
@@ -358,6 +344,20 @@ Image(
     cacheRule: CacheRule(maxAge: const Duration(days: 7)),
   ),
   fit: BoxFit.cover,
+)
+```
+
+---
+
+## CachedNetworkImage [![](https://img.shields.io/pub/v/cached_network_image.svg)](https://pub.dartlang.org/packages/cached_network_image) [![](https://img.shields.io/github/last-commit/renefloor/flutter_cached_network_image.svg)](https://github.com/renefloor/flutter_cached_network_image) [![](https://img.shields.io/github/stars/renefloor/flutter_cached_network_image.svg?style=social)](https://github.com/renefloor/flutter_cached_network_image)
+
+A flutter library to show images from the internet and keep them in the cache directory.
+
+```dart
+CachedNetworkImage(
+  imageUrl: "http://via.placeholder.com/350x150",
+  placeholder: (context, url) => CircularProgressIndicator(),
+  errorWidget: (context, url, error) => Icon(Icons.error),
 )
 ```
 
@@ -487,7 +487,7 @@ A modal progress indicator widget (HUD = heads-up display). Wrap around another 
 
 ## file_picker [![](https://img.shields.io/pub/v/file_picker.svg)](https://pub.dartlang.org/packages/file_picker) [![](https://img.shields.io/github/last-commit/miguelpruivo/plugins_flutter_file_picker.svg)](https://github.com/miguelpruivo/plugins_flutter_file_picker) [![](https://img.shields.io/github/stars/miguelpruivo/plugins_flutter_file_picker.svg?style=social)](https://github.com/miguelpruivo/plugins_flutter_file_picker)
 
-A plugin that allows you to pick absolute paths from diferent file types.
+A plugin that allows you to pick absolute paths from different file types.
 
 ![](images/file_picker1.gif)
 
@@ -1176,7 +1176,7 @@ String appDocPath = appDocDir.path;
 
 ## open_file [![](https://img.shields.io/pub/v/open_file.svg)](https://pub.dartlang.org/packages/open_file) [![](https://img.shields.io/github/last-commit/crazecoder/open_file.svg)](https://github.com/crazecoder/open_file) [![](https://img.shields.io/github/stars/crazecoder/open_file.svg?style=social)](https://github.com/crazecoder/open_file)
 
-A plug-in that can call native apps to open files with string result in flutter. Support iOS (UTI) and Android (Intent)
+A plug-in that can call native apps to open files with string result in flutter. Supports iOS (UTI) and Android (Intent)
 
 ```dart
 import 'package:open_file/open_file.dart';
@@ -1207,7 +1207,7 @@ incrementCounter() async {
 SQLite plugin for Flutter. Supports both iOS and Android.
 
 - Support transactions and batches
-- Automatic version managment during open
+- Automatic version management during open
 - Helpers for insert/query/update/delete queries
 - DB operation executed in a background thread on iOS and Android
 
@@ -1282,7 +1282,7 @@ db.insert({
 
 ## mkvv_flutter [![](https://img.shields.io/pub/v/mmkv_flutter.svg)](https://pub.dartlang.org/packages/mmkv_flutter) [![](https://img.shields.io/github/last-commit/yuyongmao/mmkv_flutter.svg)](https://github.com/yuyongmao/mmkv_flutter) [![](https://img.shields.io/github/stars/yuyongmao/mmkv_flutter.svg?style=social)](https://github.com/yuyongmao/mmkv_flutter)
 
-Plugin that allow Flutter to read value from persistent storage or save value to persistent storage base on MMKV framewor.
+Plugin that allow Flutter to read value from persistent storage or save value to persistent storage based on MMKV framework.
 
 ```dart
 MmkvFlutter mmkv = await MmkvFlutter.getInstance();
