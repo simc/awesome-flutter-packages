@@ -108,11 +108,35 @@ A Flutter staggered grid view which supports multiple columns with rows of varyi
 
 ---
 
+## FancyBottomNavigation [![](https://img.shields.io/pub/v/fancy_bottom_navigation.svg)](https://pub.dartlang.org/packages/fancy_bottom_navigation) [![](https://img.shields.io/github/last-commit/tunitowen/fancy_bottom_navigation.svg)](https://github.com/tunitowen/fancy_bottom_navigation) [![](https://img.shields.io/github/stars/tunitowen/fancy_bottom_navigation.svg?style=social)](https://github.com/tunitowen/fancy_bottom_navigation)
+
+An animated Bottom Navigation Bar for Flutter apps, icon animates into place, colors are customisable.
+
+![](images/fancy_bottom_navigation1.gif)
+
+---
+
 ## Liquid Pull To Refresh [![](https://img.shields.io/pub/v/liquid_pull_to_refresh.svg)](https://pub.dartlang.org/packages/liquid_pull_to_refresh) [![](https://img.shields.io/github/last-commit/aagarwal1012/Liquid-Pull-To-Refresh.svg)](https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/) [![](https://img.shields.io/github/stars/aagarwal1012/Liquid-Pull-To-Refresh.svg?style=social)](https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/)
 
 A beautiful and custom refresh indicator with some cool animations and transitions for flutter.
 
 ![](images/liquid_pull_to_refresh1.gif)
+
+---
+
+## folding_cell [![](https://img.shields.io/pub/v/folding_cell.svg)](https://pub.dartlang.org/packages/folding_cell) [![](https://img.shields.io/github/last-commit/faob-dev/folding_cell.svg)](https://github.com/faob-dev/folding_cell) [![](https://img.shields.io/github/stars/faob-dev/folding_cell.svg?style=social)](https://github.com/faob-dev/folding_cell)
+
+Simple folding cell widget implemented in Flutter. Its a widget so add it to any container widget as a child.
+
+![](images/folding_cell.gif)
+
+---
+
+## snaplist [![](https://img.shields.io/pub/v/snaplist.svg)](https://pub.dartlang.org/packages/snaplist) [![](https://img.shields.io/github/last-commit/ariedov/flutter_snaplist.svg)](https://github.com/ariedov/flutter_snaplist) [![](https://img.shields.io/github/stars/ariedov/flutter_snaplist.svg?style=social)](https://github.com/ariedov/flutter_snaplist)
+
+Small cozy library that allows you to make snappable list views.
+
+![](images/snaplist1.gif)
 
 ---
 
@@ -137,6 +161,14 @@ Flutter tags let you create a list of tags or insert them dynamically with the i
 A scrollbar that can be dragged for quickly navigating through a vertical list. Additionally it can show a label next to the scrollthumb with information about the current item.
 
 ![](images/draggable_scrollbar1.gif)
+
+---
+
+## Fluid Slider [![](https://img.shields.io/pub/v/flutter_fluid_slider.svg)](https://pub.dartlang.org/packages/flutter_fluid_slider) [![](https://img.shields.io/github/last-commit/rvamsikrishna/flutter_fluid_slider.git.svg)](https://github.com/rvamsikrishna/flutter_fluid_slider.git) [![](https://img.shields.io/github/stars/rvamsikrishna/flutter_fluid_slider.git.svg?style=social)](https://github.com/rvamsikrishna/flutter_fluid_slider.git)
+
+A fluid design slider that works just like the Slider material widget.
+
+![](images/flutter_fluid_slider1.gif)
 
 ---
 
@@ -169,6 +201,14 @@ A platform agnostic Flutter package for showing passcode input screen, similar t
 A Material Flutter Button that supports progress and error visuals.
 
 <img src="images/progress_button1.gif" width="320px">
+
+---
+
+## stepper_touch [![](https://img.shields.io/pub/v/stepper_touch.svg)](https://pub.dartlang.org/packages/stepper_touch) [![](https://img.shields.io/github/last-commit/Rahiche/stepper_touch.svg)](https://github.com/Rahiche/stepper_touch) [![](https://img.shields.io/github/stars/Rahiche/stepper_touch.svg?style=social)](https://github.com/Rahiche/stepper_touch)
+
+A Flutter stepper widget with nice aniamtion.
+
+![](images/stepper_touch1.gif)
 
 <br>
 
@@ -263,6 +303,14 @@ Fluttie allows you to easily display stunning Lottie animations in flutter.
 
 ---
 
+## Hidden Drawer Menu [![](https://img.shields.io/pub/v/hidden_drawer_menu.svg)](https://pub.dartlang.org/packages/hidden_drawer_menu) [![](https://img.shields.io/github/last-commit/RafaelBarbosatec/hidden_drawer_menu.svg)](https://github.com/RafaelBarbosatec/hidden_drawer_menu) [![](https://img.shields.io/github/stars/RafaelBarbosatec/hidden_drawer_menu.svg?style=social)](https://github.com/RafaelBarbosatec/hidden_drawer_menu)
+
+Hidden Drawer Menu is a library for adding a beautiful drawer mode menu feature with perspective animation.
+
+![](images/hidden_drawer_menu1.gif)
+
+---
+
 ## flip_panel [![](https://img.shields.io/pub/v/flip_panel.svg)](https://pub.dartlang.org/packages/flip_panel) [![](https://img.shields.io/github/last-commit/hnvn/flutter_flip_panel.svg)](https://github.com/hnvn/flutter_flip_panel) [![](https://img.shields.io/github/stars/hnvn/flutter_flip_panel.svg?style=social)](https://github.com/hnvn/flutter_flip_panel)
 
 A package for flip panel with built-in animation.
@@ -293,6 +341,14 @@ player.angle = ... // 0 by default
 // on your render method...
 player.render(canvas);
 ```
+
+---
+
+## WaveProgress [![](https://img.shields.io/pub/v/wave_progress_widget.svg)](https://pub.dartlang.org/packages/wave_progress_widget) [![](https://img.shields.io/github/last-commit/studioidan/wave_progress.svg)](https://github.com/studioidan/wave_progress) [![](https://img.shields.io/github/stars/studioidan/wave_progress.svg?style=social)](https://github.com/studioidan/wave_progress)
+
+A custom wave progress widget.
+
+![](images/wave_progress_widget1.gif)
 
 ---
 
@@ -493,6 +549,14 @@ A carousel slider widget, support infinite scroll and custom child widget, with 
 A plugin to help you make intro slider screen to show the major features of your app. You can change the image, button, text style, color, and more things.
 
 <img src="images/intro_slider1.gif" height="300px">
+
+---
+
+## Flushbar [![](https://img.shields.io/pub/v/flushbar.svg)](https://pub.dartlang.org/packages/flushbar) [![](https://img.shields.io/github/last-commit/AndreHaueisen/flushbar.svg)](https://github.com/AndreHaueisen/flushbar) [![](https://img.shields.io/github/stars/AndreHaueisen/flushbar.svg?style=social)](https://github.com/AndreHaueisen/flushbar)
+
+A flexible widget for user notification. Customize your text, button, duration, animations and much more. For Android devs, it is made to replace Snackbars and Toasts.
+
+![](images/flushbar1.gif)
 
 ---
 
