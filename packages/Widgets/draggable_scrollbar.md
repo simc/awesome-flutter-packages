@@ -1,5 +1,5 @@
 ## Draggable Scrollbar
 
-A scrollbar that can be dragged for quickly navigation through a vertical list. Additionaly it can show label next to scrollthumb with information about current item, for example date of picture created.
+A scrollbar that can be dragged for quickly navigating through a vertical list. Additionally it can show a label next to the scrollthumb with information about the current item.
 
 ![](images/draggable_scrollbar1.gif)

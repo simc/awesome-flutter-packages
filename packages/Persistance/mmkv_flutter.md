@@ -1,6 +1,6 @@
 ## mkvv_flutter
 
-Plugin that allow Flutter to read value from persistent storage or save value to persistent storage base on MMKV framewor.
+Plugin that allow Flutter to read value from persistent storage or save value to persistent storage based on MMKV framework.
 
 ```dart
 MmkvFlutter mmkv = await MmkvFlutter.getInstance();
