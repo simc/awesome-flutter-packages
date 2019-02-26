@@ -2,4 +2,4 @@
 
 Easy to use splash screen package.
 
-![](images/splashscreen1.png)
+<img src="images/splashscreen1.png" height="250px">
