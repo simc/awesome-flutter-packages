@@ -39,7 +39,7 @@ On iOS the WebView widget is backed by a `WKWebView`; On Android the WebView wid
 
 Easy to use splash screen package.
 
-![](images/splashscreen1.png)
+<img src="images/splashscreen1.png" height="250px">
 
 ---
 
@@ -47,7 +47,7 @@ Easy to use splash screen package.
 
 Flutter widget that automatically resizes text to fit perfectly within its bounds.
 
-![](images/auto_size_text1.gif)
+<img src="images/auto_size_text1.gif" width="500px">
 
 ---
 
@@ -208,7 +208,7 @@ Composite together any animation with this robust and simple to use package.
 
 Page transitions with just a few lines of code. What are heroes without villains?
 
-![](images/flutter_villains1.gif)
+<img src="images/flutter_villains1.gif" width="250px">
 
 ---
 
@@ -233,8 +233,8 @@ Widget for displaying waves with custom color, duration, floating and blur effec
 A component that provides flip card animation. It could be used for hide and show details of a product.
 
 <p>
-	<img src="images/flip_card1.gif" width="250" />
-	<img src="images/flip_card2.gif" width="250" />
+	<img src="images/flip_card1.gif" />
+	<img src="images/flip_card2.gif" />
 </p>
 
 ---
@@ -391,7 +391,7 @@ var result = await FlutterImageCompress.compressWithFile(
 
 The Material Design Icons from the community for Flutter.
 
-<img src="images/material_design_icons_flutter1.png" width="800px">
+<img src="images/material_design_icons_flutter1.png" width="600px">
 
 ---
 
@@ -399,8 +399,8 @@ The Material Design Icons from the community for Flutter.
 A flutter plugin to crop image on iOS and Android. It processes image files off main thread natively. The plugin provides a Crop widget to display image cropping to a user.
 
 <p>
-	<img src="images/image_crop1.jpg" width="250" />
-	<img src="images/image_crop2.jpg" width="250" />
+	<img src="images/image_crop1.jpg" height="250px" />
+	<img src="images/image_crop2.jpg" height="250px" />
 </p>
 
 ---
@@ -444,7 +444,7 @@ A Flutter implementation of slidable list item with directional slide actions th
 
 A Flutter package for simple material design app intro screens with some cool animations.
 
-<img src="images/intro_views_flutter1.gif" width="200px"/>
+![](images/intro_views_flutter1.gif)
 
 ---
 
@@ -452,7 +452,7 @@ A Flutter package for simple material design app intro screens with some cool an
 
 A carousel slider widget, support infinite scroll and custom child widget, with auto play feature.
 
-![](images/carousel_slider1.gif)
+<img src="images/carousel_slider1.gif" height="300px">
 
 ---
 
@@ -460,7 +460,7 @@ A carousel slider widget, support infinite scroll and custom child widget, with 
 
 A plugin to help you make intro slider screen to show the major features of your app. You can change the image, button, text style, color, and more things.
 
-![](images/intro_slider1.gif)
+<img src="images/intro_slider1.gif" height="300px">
 
 ---
 
@@ -508,8 +508,8 @@ It is possible to use `NumberPicker` as a standalone widget as well as in `Numbe
 Countries, codes, flags and several ways of picking them at your service...
 
 <p>
-	<img src="images/country_pickers1.png" />
-	<img src="images/country_pickers2.png" />
+	<img src="images/country_pickers1.png" height="320px" />
+	<img src="images/country_pickers2.png" height="320px" />
 </p>
 
 ---
