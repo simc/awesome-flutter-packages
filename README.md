@@ -59,6 +59,63 @@ Lets you place headers on scrollable content that will stick to the top of the c
 
 ---
 
+## Flutter Speed Dial [![](https://img.shields.io/pub/v/flutter_speed_dial.svg)](https://pub.dartlang.org/packages/flutter_speed_dial) [![](https://img.shields.io/github/last-commit/darioielardi/flutter_speed_dial.svg)](https://github.com/darioielardi/flutter_speed_dial) [![](https://img.shields.io/github/stars/darioielardi/flutter_speed_dial.svg?style=social)](https://github.com/darioielardi/flutter_speed_dial)
+
+Flutter plugin to implement a beautiful and dynamic Material Design Speed Dial, with labels, animated icons and hide on scrolling.
+
+![](images/flutter_sppeed_dial1.gif)
+
+---
+
+## Flutter Platform Widgets [![](https://img.shields.io/pub/v/flutter_platform_widgets.svg)](https://pub.dartlang.org/packages/flutter_platform_widgets) [![](https://img.shields.io/github/last-commit/aqwert/flutter_platform_widgets.svg)](https://github.com/aqwert/flutter_platform_widgets) [![](https://img.shields.io/github/stars/aqwert/flutter_platform_widgets.svg?style=social)](https://github.com/aqwert/flutter_platform_widgets)
+
+Simplifying the use of both Material and Cupertino widgets with a single widget.
+
+```dart
+PlatformWidget(
+  ios: (_) => Icon(CupertinoIcons.flag),
+  android: (_) => Icon(Icons.flag),
+);
+```
+
+```dart
+PlatformButton(
+  onPressed: () => print('send'),
+  child: PlatformText('Send'),
+);
+```
+
+```dart
+PlatformAlertDialog(
+  title: Text('Alert'),
+  content: Text('Some content'),
+  actions: <Widget>[
+    PlatformDialogAction(),
+    PlatformDialogAction(),
+  ],
+);
+```
+etc.
+
+
+---
+
+## flutter_staggered_grid_view [![](https://img.shields.io/pub/v/flutter_staggered_grid_view.svg)](https://pub.dartlang.org/packages/flutter_staggered_grid_view) [![](https://img.shields.io/github/last-commit/letsar/flutter_staggered_grid_view.svg)](https://github.com/letsar/flutter_staggered_grid_view) [![](https://img.shields.io/github/stars/letsar/flutter_staggered_grid_view.svg?style=social)](https://github.com/letsar/flutter_staggered_grid_view)
+
+A Flutter staggered grid view which supports multiple columns with rows of varying sizes.
+
+![](images/flutter_staggered_grid_view.png)
+
+---
+
+## Rubber [![](https://img.shields.io/pub/v/rubber.svg)](https://pub.dartlang.org/packages/rubber) [![](https://img.shields.io/github/last-commit/mcrovero/rubber.svg)](https://github.com/mcrovero/rubber) [![](https://img.shields.io/github/stars/mcrovero/rubber.svg?style=social)](https://github.com/mcrovero/rubber)
+
+Rubber is an elastic bottom sheet widget with the customizable material spring animation.
+
+![](images/rubber1.gif)
+
+---
+
 ## Infinite ListView [![](https://img.shields.io/pub/v/infinite_listview.svg)](https://pub.dartlang.org/packages/infinite_listview) [![](https://img.shields.io/github/last-commit/fluttercommunity/flutter_infinite_listview.svg)](https://github.com/fluttercommunity/flutter_infinite_listview) [![](https://img.shields.io/github/stars/fluttercommunity/flutter_infinite_listview.svg?style=social)](https://github.com/fluttercommunity/flutter_infinite_listview)
 
 ListView with items that can be scrolled infinitely in both directions.
@@ -80,6 +137,14 @@ Flutter tags let you create a list of tags or insert them dynamically with the i
 A scrollbar that can be dragged for quickly navigation through a vertical list. Additionaly it can show label next to scrollthumb with information about current item, for example date of picture created.
 
 ![](images/draggable_scrollbar1.gif)
+
+---
+
+## Zefyr [![](https://img.shields.io/pub/v/zefyr.svg)](https://pub.dartlang.org/packages/zefyr) [![](https://img.shields.io/github/last-commit/memspace/zefyr.svg)](https://github.com/memspace/zefyr) [![](https://img.shields.io/github/stars/memspace/zefyr.svg?style=social)](https://github.com/memspace/zefyr)
+
+Clean, minimalistic and collaboration-ready rich text editor for Flutter.
+
+![](images/zefyr1.png)
 
 ---
 
@@ -494,7 +559,7 @@ A flutter plugin to integrate the stripe plugin for iOS and Android. Currently o
 
 <p>
 	<img src="images/stripe_payment1.png" />
-	<img src="images/stripe_payment2.gif" width="250" />
+	<img src="images/stripe_payment2.png" />
 </p>
 
 ---
@@ -888,6 +953,26 @@ class Person {
   
   Map<String, dynamic> toJson() => _$PersonToJson(this);
 }
+```
+
+---
+
+## fluwx WeChatSDK [![](https://img.shields.io/pub/v/fluwx.svg)](https://pub.dartlang.org/packages/fluwx) [![](https://img.shields.io/github/last-commit/JarvanMo/fluwx.svg)](https://github.com/JarvanMo/fluwx) [![](https://img.shields.io/github/stars/JarvanMo/fluwx.svg?style=social)](https://github.com/JarvanMo/fluwx)
+
+A implement of WeChatSDK on Flutter. Enjoy sharing or payments in Flutter.
+
+```dart
+import 'package:fluwx/fluwx.dart' as fluwx;
+
+fluwx.register(appId:"wxd930ea5d5a258f4f");
+
+fluwx.share(
+  WeChatShareTextModel(
+    text: "text from fluwx",
+    transaction: "transaction",
+    scene: WeChatScene.SESSION,
+  ),
+);
 ```
 
 ---
