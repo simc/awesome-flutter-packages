@@ -108,6 +108,14 @@ A Flutter staggered grid view which supports multiple columns with rows of varyi
 
 ---
 
+## Liquid Pull To Refresh [![](https://img.shields.io/pub/v/liquid_pull_to_refresh.svg)](https://pub.dartlang.org/packages/liquid_pull_to_refresh) [![](https://img.shields.io/github/last-commit/aagarwal1012/Liquid-Pull-To-Refresh.svg)](https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/) [![](https://img.shields.io/github/stars/aagarwal1012/Liquid-Pull-To-Refresh.svg?style=social)](https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/)
+
+A beautiful and custom refresh indicator with some cool animations and transitions for flutter.
+
+![](images/liquid_pull_to_refresh1.gif)
+
+---
+
 ## Rubber [![](https://img.shields.io/pub/v/rubber.svg)](https://pub.dartlang.org/packages/rubber) [![](https://img.shields.io/github/last-commit/mcrovero/rubber.svg)](https://github.com/mcrovero/rubber) [![](https://img.shields.io/github/stars/mcrovero/rubber.svg?style=social)](https://github.com/mcrovero/rubber)
 
 Rubber is an elastic bottom sheet widget with the customizable material spring animation.
@@ -140,11 +148,27 @@ A scrollbar that can be dragged for quickly navigating through a vertical list. 
 
 ---
 
+## BubbleBottomBar [![](https://img.shields.io/pub/v/bubble_bottom_bar.svg)](https://pub.dartlang.org/packages/bubble_bottom_bar) [![](https://img.shields.io/github/last-commit/westdabestdb/bubble_bottom_bar.svg)](https://github.com/westdabestdb/bubble_bottom_bar) [![](https://img.shields.io/github/stars/westdabestdb/bubble_bottom_bar.svg?style=social)](https://github.com/westdabestdb/bubble_bottom_bar)
+
+BubbleBottomBar is a Flutter widget designed by cubertodesign and developed by westdabestdb.
+
+![images/bubble_bottom_bar1.gif]
+
+---
+
 ## Zefyr [![](https://img.shields.io/pub/v/zefyr.svg)](https://pub.dartlang.org/packages/zefyr) [![](https://img.shields.io/github/last-commit/memspace/zefyr.svg)](https://github.com/memspace/zefyr) [![](https://img.shields.io/github/stars/memspace/zefyr.svg?style=social)](https://github.com/memspace/zefyr)
 
 Clean, minimalistic and collaboration-ready rich text editor for Flutter.
 
 ![](images/zefyr1.png)
+
+---
+
+## Passcode Lock Screen [![](https://img.shields.io/pub/v/passcode_screen.svg)](https://pub.dartlang.org/packages/passcode_screen) [![](https://img.shields.io/github/last-commit/xPutnikx/flutter-passcode.svg)](https://github.com/xPutnikx/flutter-passcode) [![](https://img.shields.io/github/stars/xPutnikx/flutter-passcode.svg?style=social)](https://github.com/xPutnikx/flutter-passcode)
+
+A platform agnostic Flutter package for showing passcode input screen, similar to Native iOS. Screen customizable with a colors, sizes, fonts etc.
+
+![](images/passcode_screen1.png)
 
 ---
 
@@ -280,11 +304,27 @@ player.render(canvas);
 
 ---
 
+## Text to Path Maker [![](https://img.shields.io/pub/v/text_to_path_maker.svg)](https://pub.dartlang.org/packages/text_to_path_maker) [![](https://img.shields.io/github/last-commit/hathibelagal-dev/text-to-path-maker-for-flutter.svg)](https://github.com/hathibelagal-dev/text-to-path-maker-for-flutter) [![](https://img.shields.io/github/stars/hathibelagal-dev/text-to-path-maker-for-flutter.svg?style=social)](https://github.com/hathibelagal-dev/text-to-path-maker-for-flutter)
+
+Tis is a pure Flutter and Dart package that allows you to convert text (both characters and icons) into paths and animate them.
+
+![](images/text_to_path_maker1.gif)
+
+---
+
 ## drawing_animation [![](https://img.shields.io/pub/v/drawing_animation.svg)](https://pub.dartlang.org/packages/drawing_animation) [![](https://img.shields.io/github/last-commit/biocarl/drawing_animation.svg)](https://github.com/biocarl/drawing_animation) [![](https://img.shields.io/github/stars/biocarl/drawing_animation.svg?style=social)](https://github.com/biocarl/drawing_animation)
 
 An dart-only library for gradually painting SVG path objects on canvas (drawing line animation).
 
 ![](images/drawing_animation1.gif)
+
+---
+
+## Path Morph [![](https://img.shields.io/pub/v/path_morph.svg)](https://pub.dartlang.org/packages/path_morph) [![](https://img.shields.io/github/last-commit/hathibelagal-dev/path_morph_for_flutter.svg)](https://github.com/hathibelagal-dev/path_morph_for_flutter) [![](https://img.shields.io/github/stars/hathibelagal-dev/path_morph_for_flutter.svg?style=social)](https://github.com/hathibelagal-dev/path_morph_for_flutter)
+
+This package lets you create path tween animations. In other words, it lets you morph one path into another.
+
+![](images/path_morph1.gif)
 
 <br>
 
@@ -1003,6 +1043,33 @@ var last = superList[-1]; // 1000
 var lastTwo = superList.slice(-2); // [100, 1000]
 ```
 
+---
+
+## rosetta [![](https://img.shields.io/pub/v/rosetta.svg)](https://pub.dartlang.org/packages/rosetta) [![](https://img.shields.io/github/last-commit/TeamWanari/rosetta.svg)](https://github.com/TeamWanari/rosetta) [![](https://img.shields.io/github/stars/TeamWanari/rosetta.svg?style=social)](https://github.com/TeamWanari/rosetta)
+
+This is a localization library to simplify Flutter localization with the help of code generation.
+
+`i18n/en.json`
+```json
+{
+    "hello_there": "Hello there!",
+    "see_you_soon": "See you soon!"
+}
+```
+
+```dart
+part 'translation.g.dart';
+
+@Stone(path: 'i18n')
+class Translation with _$TranslationHelper { 
+  static LocalizationsDelegate<Translation> delegate = _$TranslationDelegate();
+
+  static Translation of(BuildContext context) {
+    return Localizations.of(context, Translation);
+  }
+}
+```
+
 <br>
 
 # Frameworks & Design Patterns
@@ -1096,6 +1163,55 @@ class Example extends HookWidget {
   Widget build(BuildContext context) {
     final controller = useAnimationController(duration: duration);
     return Container();
+  }
+}
+```
+
+---
+
+## Flutter MobX [![](https://img.shields.io/pub/v/flutter_mobx.svg)](https://pub.dartlang.org/packages/flutter_mobx) [![](https://img.shields.io/github/last-commit/mobxjs/mobx.dart.svg)](https://github.com/mobxjs/mobx.dart) [![](https://img.shields.io/github/stars/mobxjs/mobx.dart.svg?style=social)](https://github.com/mobxjs/mobx.dart)
+
+MobX is a library for reactively managing the state of your applications. Use the power of observables, actions, and reactions to supercharge your Dart and Flutter apps.
+
+```dart
+part 'counter.g.dart';
+
+class Counter = _Counter with _$Counter;
+
+abstract class _Counter implements Store {
+  @observable
+  int value = 0;
+
+  @action
+  void increment() {
+    value++;
+  }
+}
+```
+
+```dart
+class CounterExample extends StatefulWidget {
+  @override
+  _CounterExampleState createState() => _CounterExampleState();
+}
+
+class _CounterExampleState extends State<CounterExample> {
+  final _counter = Counter();
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Observer(
+            builder: (_) => Text('${_counter.value}'),
+          ),
+          Button(
+            onPressed: _counter.increment,
+            child: const Icon(Icons.add),
+          )
+        ],
+    );
   }
 }
 ```
@@ -1195,8 +1311,10 @@ Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefau
 ```dart
 incrementCounter() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
+
   int counter = (prefs.getInt('counter') ?? 0) + 1;
   print('Pressed $counter times.');
+  
   await prefs.setInt('counter', counter);
 }
 ```
@@ -1231,7 +1349,7 @@ A cookie manager for http requests in Dart, by which you can deal with the compl
 ```dart
 import 'package:cookie_jar/cookie_jar.dart';
 void main() async {
-  List<Cookie> cookies = [new Cookie("name", "wendux"),new Cookie("location", "china")];
+  List<Cookie> cookies = [new Cookie("name", "wendux"), new Cookie("location", "china")];
   var cj = new CookieJar();
   //Save cookies   
   cj.saveFromResponse(Uri.parse("https://www.baidu.com/"), cookies);
@@ -1259,6 +1377,21 @@ Map settings = await db.get('settings') as Map;
   
 // ...and delete
 await db.delete('version');
+```
+
+---
+
+## hydrated [![](https://img.shields.io/pub/v/hydrated.svg)](https://pub.dartlang.org/packages/hydrated) [![](https://img.shields.io/github/last-commit/lukepighetti/hydrated.svg)](https://github.com/lukepighetti/hydrated) [![](https://img.shields.io/github/stars/lukepighetti/hydrated.svg?style=social)](https://github.com/lukepighetti/hydrated)
+
+Hydrated provides a BehaviorSubject that automatically persists to Flutter's local storage and hydrates on creation!
+
+All values are persisted with shared_preferences and restored with automatic hydration.
+
+```dart
+final count$ = HydratedSubject<int>("count", seedValue: 0);
+
+/// count$ will automatically be hydrated with 42 next time it is created
+count$.add(42);
 ```
 
 ---
