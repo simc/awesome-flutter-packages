@@ -4,7 +4,7 @@ A cookie manager for http requests in Dart, by which you can deal with the compl
 ```dart
 import 'package:cookie_jar/cookie_jar.dart';
 void main() async {
-  List<Cookie> cookies = [new Cookie("name", "wendux"),new Cookie("location", "china")];
+  List<Cookie> cookies = [new Cookie("name", "wendux"), new Cookie("location", "china")];
   var cj = new CookieJar();
   //Save cookies   
   cj.saveFromResponse(Uri.parse("https://www.baidu.com/"), cookies);
