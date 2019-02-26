@@ -22,6 +22,8 @@ var categories = [
   'Logging & Error Handling'
 ];
 
+var allPackages = List<Package>();
+
 void main() async {
   var markdown = File('Header.md').readAsStringSync();
   for (var category in categories) {
@@ -31,6 +33,9 @@ void main() async {
   for (var category in categories) {
     markdown += '\n\n<br>\n\n' + await compileCategory(category);
   }
+
+  checkImages();
+
   File('../README.md').writeAsStringSync(markdown);
 }
 
@@ -59,6 +64,8 @@ Future<String> compileCategory(String category) async {
     markdown += "\n" + buildPackageMarkdown(packages[i]);
   }
 
+  allPackages.addAll(packages);
+
   return markdown;
 }
 
@@ -83,7 +90,8 @@ Future<Package> loadPackage(FileSystemEntity packageFile) async {
     var pubspec = pubJson['latest']['pubspec'];
     package.homepage = pubspec['repository'] ?? pubspec['homepage'];
     var homepageUri = Uri.parse(package.homepage);
-    assert(homepageUri.host == 'github.com');
+    assert(
+        homepageUri.host == 'github.com', "Package has not github homepage.");
     package.repoUser = homepageUri.pathSegments[0];
     package.repoName = homepageUri.pathSegments[1];
   }
@@ -135,9 +143,30 @@ String starsBadge(Package package) {
 }
 
 String buildPackageMarkdown(Package package) {
-  assert(package.markdown[0].trimLeft().startsWith('## '));
+  assert(package.markdown[0].trimLeft().startsWith('## '),
+      "Package does not have a correct title.");
   var firstLine = package.markdown[0].trimRight();
   package.markdown[0] =
       "$firstLine ${pubBadge(package)} ${lastCommitBadge(package)} ${starsBadge(package)}";
   return package.markdown.join("\n");
+}
+
+void checkImages() {
+  var names = $(Directory("../images").listSync()).mapNotNull((image) {
+    var filenameComponents = image.path.split('/').last.split('.');
+    var name = filenameComponents[filenameComponents.length - 2];
+    return name.isNotEmpty ? name : null; // Hidden files
+  }).toList();
+
+  var counter = 1;
+  for (var package in allPackages) {
+    while (names.remove(package.name + counter.toString())) {
+      counter++;
+    }
+    counter = 1;
+  }
+
+  if (names.isNotEmpty) {
+    assert(false, "Wrong image file ${names.first}");
+  }
 }
